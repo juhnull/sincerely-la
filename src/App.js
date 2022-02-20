@@ -12,7 +12,7 @@ import fun from './imgs/fun.png';
 import hangout from './imgs/hangout.png';
 import corn from './imgs/corn.png';
 import flowers from './imgs/flowers.png';
-
+import form from './imgs/formm.png';
 
 class App extends Component {
   render(){
@@ -78,7 +78,7 @@ class App extends Component {
           <div class="moving">
             <div class="mover-1"></div>
       </div>
-      
+
       </div>
 
       <div id="googleMap">
@@ -107,8 +107,11 @@ class App extends Component {
         <div className='flowers'><img src={flowers}></img></div>
       </div>
 
+      <div className='formm'>
+        <div className='locals'> <h1>For the locals...</h1></div>
+        <div className='form'><img src={form}></img></div>
+      </div>
 
-      
     </div>
 
   );

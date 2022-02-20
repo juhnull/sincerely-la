@@ -137,6 +137,7 @@ p {
   z-index: 5;
   column-count: 4;
   column-gap: 100px;
+  margin-bottom: 10rem;
 }
 
 .corn {
@@ -179,3 +180,14 @@ p {
   transform: scale(0.9,0.9);
 }
 
+.form {
+  position: absolute;
+  top: 125em;
+  z-index: 5;
+  margin-bottom: 10rem;
+}
+
+.locals {
+  position: absolute;
+  z-index: 8;
+}
