@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295 73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fdb913;
+      }
+
+      .cls-2 {
+        font-size: 48px;
+        fill: #534741;
+        font-family: BrandonGrotesque-Bold, Brandon Grotesque;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.01em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <rect class="cls-1" width="295" height="73" rx="16.28"/>
+      <text class="cls-2" transform="translate(31.08 50.74) scale(1.07 1)"><tspan class="cls-3">G</tspan><tspan x="33.79" y="0">et </tspan><tspan class="cls-4" x="82.32" y="0">S</tspan><tspan x="107.61" y="0">tarted</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -4,20 +4,89 @@
 }
 
 .App {
-  text-align: center;
+  
   background-color: #f5f5f5;
   background-image: url('./imgs/metroLA.svg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;
+  perspective: 8px;
+  perspective-origin: 50%;
 }
 
 .App-header {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: #534741;
+}
+
+.mainWords {
+  font-size: 85px;
+  padding-left: 40px;
+  padding-bottom: 150px;
+  z-index: 1;
+}
+
+.topLeft {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 210px;
+  z-index: 5;
+}
+
+.ktown {
+  position: absolute;
+  bottom: 110px;
+  right: 450px;
+  width: 300px;
+  transform: scale(0.15,0.15);
+}
+
+.sc {
+  position: absolute;
+  top: 220px;
+  right: 180px;
+  width: 300px;
+  transform: scale(0.15,0.15);
+}
+
+.register {
+  position: absolute;
+  top: 320px;
+  right: 73em;
+  transform: scale(0.4,0.4);
+  z-index: 0;
+}
+
+p {
+  position: absolute;
+  font-size: 18px;
+  padding-left: 40px;
+  padding-top: 150px;
+  z-index: 0;
+}
+
+#googleMap {
+  margin-top: 110px;
+  padding-left: 0px;
+  margin-right: auto;
+}
+
+.downArrow {
+  position: absolute;
+  top: 7rem;
+  left: 57rem;
+  transform: scale(0.1,0.1);
+  z-index: 0;
+}
+
+.recList {
+  position: absolute;
+  top: 7rem;
+  left: 57rem;
+  z-index: 0;
 }
