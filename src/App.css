@@ -131,9 +131,51 @@ p {
 
 .moreButtons {
   position: absolute;
-  font-size: 18px;
-  padding-left: 40px;
-  padding-top: 150px;
-  z-index: 1;
+  top: 104em;
+  left: 100px;
+  transform: scale(0.8,0.8);
+  z-index: 5;
+  column-count: 4;
+  column-gap: 100px;
+}
+
+.corn {
+  position: absolute;
+  top: 80em;
+  left: 100px;
+  transform: scale(0.3,0.3);
+  z-index: 5;
+  column-count: 4;
+  column-gap: 100px;
+}
+
+.flowers {
+  position: absolute;
+  top: 90em;
+  left: 600px;
+  transform: scale(0.3,0.3);
+  z-index: 5;
+  column-count: 4;
+  column-gap: 100px;
+}
+
+.food:hover  > .corn {
+  opacity: 0%;
+}
+
+.food:hover {
+  transform: scale(0.9,0.9);
+}
+
+.shop:hover {
+  transform: scale(0.9,0.9);
+}
+
+.fun:hover {
+  transform: scale(0.9,0.9);
+}
+
+.hangout:hover {
+  transform: scale(0.9,0.9);
 }
 

@@ -6,7 +6,12 @@ import ktown from './imgs/ktown.png';
 import southCentral from './imgs/southcentral.png';
 import signup from './imgs/signup.svg';
 import { Map, GoogleApiWrapper } from "google-maps-react";
-import trains from './imgs/metroLA.svg';
+import food from './imgs/flan.png';
+import shop from './imgs/shop.png';
+import fun from './imgs/fun.png';
+import hangout from './imgs/hangout.png';
+import corn from './imgs/corn.png';
+import flowers from './imgs/flowers.png';
 
 
 class App extends Component {
@@ -90,8 +95,15 @@ class App extends Component {
       </div>
 
       <div className='moreButtons'>
-        <h1> 🍮        🛒    🎉   🚲</h1>
-        <h1>FOOD       SHOP FUN HANGOUT  </h1>
+        <div className='food'><img src={food}></img></div>
+        <div className='shop'><img src={shop}></img></div>
+        <div className='fun'><img src={fun}></img></div>
+        <div className='hangout'><img src={hangout}></img></div>
+      </div>
+
+      <div className='cornflowers'>
+        <div className='corn'><img src={corn}></img></div>
+        <div className='flowers'><img src={flowers}></img></div>
       </div>
 
 
