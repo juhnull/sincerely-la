@@ -6,6 +6,7 @@ import ktown from './imgs/ktown.png';
 import southCentral from './imgs/southcentral.png';
 import signup from './imgs/signup.svg';
 import { Map, GoogleApiWrapper } from "google-maps-react";
+import trains from './imgs/metroLA.svg';
 
 
 class App extends Component {
@@ -65,7 +66,13 @@ class App extends Component {
       </div>
 
       <div className='recList'>
-          <h1>Get the best recommendations in the city</h1>
+          <h1>Get the best recommendations in the city:</h1>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div class="moving">
+            <div class="mover-1"></div>
+      </div>
       </div>
 
       <div id="googleMap">
@@ -82,6 +89,13 @@ class App extends Component {
         />
       </div>
 
+      <div className='moreButtons'>
+        <h1> 🍮        🛒    🎉   🚲</h1>
+        <h1>FOOD       SHOP FUN HANGOUT  </h1>
+      </div>
+
+
+      
     </div>
 
   );
