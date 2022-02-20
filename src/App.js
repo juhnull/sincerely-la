@@ -1,7 +1,5 @@
 import React from "react";
-import logo from './logo.svg';
 import './App.css';
-import hihi from './imgs/metroLA.png';
 
 function App() {
   return (
