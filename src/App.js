@@ -64,7 +64,9 @@ class App extends Component {
         <img src="https://media.giphy.com/media/PkSCS46q1iZu9jQoTf/giphy.gif"/>
       </div>
 
-
+      <div className='recList'>
+          <h1>Get the best recommendations in the city</h1>
+      </div>
 
       <div id="googleMap">
         <Map
