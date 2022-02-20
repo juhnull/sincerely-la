@@ -78,6 +78,7 @@ class App extends Component {
           <div class="moving">
             <div class="mover-1"></div>
       </div>
+      
       </div>
 
       <div id="googleMap">
